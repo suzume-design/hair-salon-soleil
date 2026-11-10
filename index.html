@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- 提案用サンプルのため検索エンジンには載せない（このプロジェクトの全サイト共通・削除しない） -->
+<meta name="robots" content="noindex, nofollow">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1RZWP9PNCS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1RZWP9PNCS');
+</script>
+<title>hair salon soleil（ソレイユ）｜練馬区関町南の美容室｜サンプルサイト</title>
+<meta name="description" content="東京都練馬区関町南の美容室 hair salon soleil（ソレイユ）のサンプルサイトです。レンガと木のサッシ、テラコッタの床に囲まれた小さなサロンをご紹介します。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============================================================
+     HEADER  固定ヘッダー。下辺に木の色の罫線
+     ============================================================ -->
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#top" class="brand">soleil</a>
+
+    <nav class="gnav" id="gnav">
+      <ul class="nav-list">
+        <li><a href="#about">ABOUT</a></li>
+        <li class="nav-sep" aria-hidden="true"></li>
+        <li><a href="#care">CARE</a></li>
+        <li class="nav-sep" aria-hidden="true"></li>
+        <li><a href="#flow">FLOW</a></li>
+        <li class="nav-sep" aria-hidden="true"></li>
+        <li><a href="#menu">MENU</a></li>
+        <li class="nav-sep" aria-hidden="true"></li>
+        <li><a href="#access">ACCESS</a></li>
+      </ul>
+      <a href="#reserve" class="btn-reserve">RESERVE</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" type="button"
+            aria-label="メニューを開く" aria-expanded="false" aria-controls="gnav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============================================================
+       HERO  白ベージュの地に文字組み＋外観写真を帯で置く
+       ※ 実写が2点しかないため、planC 既定の全面背景は使わず
+         写真を原寸（968px）以上に引き伸ばさない構成にしている
+       ============================================================ -->
+  <section id="hero" class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <div class="hero-frame" data-reveal>
+          <span class="corner corner-tl" aria-hidden="true"></span>
+          <span class="corner corner-tr" aria-hidden="true"></span>
+          <span class="corner corner-bl" aria-hidden="true"></span>
+          <span class="corner corner-br" aria-hidden="true"></span>
+          <div class="hero-frame-inner">
+            <span class="sun-mark" aria-hidden="true">
+              <svg viewBox="0 0 64 64" width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.1">
+                <circle cx="32" cy="32" r="12"></circle>
+                <g stroke-linecap="round">
+                  <path d="M32 4v8M32 52v8M4 32h8M52 32h8"></path>
+                  <path d="M12.2 12.2l5.7 5.7M46.1 46.1l5.7 5.7M51.8 12.2l-5.7 5.7M17.9 46.1l-5.7 5.7"></path>
+                </g>
+              </svg>
+            </span>
+            <h1 class="hero-title">hair salon soleil</h1>
+            <p class="hero-read">ソレイユ</p>
+            <p class="hero-vert">木とレンガの、<br>やわらかな場所で。</p>
+          </div>
+        </div>
+      </div>
+
+      <figure class="hero-photo" data-reveal>
+        <div class="hero-photo-frame">
+          <img src="images/facade.jpg" alt="レンガの壁と木のサッシに囲まれた hair salon soleil の外観">
+        </div>
+        <figcaption class="hero-photo-cap">練馬区関町南。レンガと木のサッシの小さな入り口です。</figcaption>
+      </figure>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       ABOUT  縦組みのコンセプト文＋内観写真（4:3）
+       ⚠ .about-vert は縦書き。9行・空行なし。
+       ============================================================ -->
+  <section id="about" class="sec sec-light">
+    <div class="sec-inner sec-inner--about">
+      <h2 class="head-block" data-reveal>
+        <span class="head-sub">About Us</span>
+        <span class="head-main">Concept</span>
+        <span class="head-rule" aria-hidden="true"></span>
+      </h2>
+
+      <p class="about-vert" data-reveal>おひとりずつを、<br>大切に。<br>大型店にはない<br>ゆったりとした<br>時間の中で、<br>カウンセリングから<br>仕上げまで、<br>経験を重ねた者が<br>ひとりで担当します。</p>
+
+      <figure class="about-photo" data-reveal>
+        <div class="about-photo-frame">
+          <img src="images/interior.jpg" alt="チークの木の収納とテラコッタタイルの床が広がる店内">
+        </div>
+        <figcaption class="about-photo-cap">木の吊り戸棚、焼き物の色の床、縦格子の仕切り。</figcaption>
+      </figure>
+
+      <p class="about-note" data-reveal>はじめてのサロンは緊張する。人混みは少し苦手。そんな方にも落ち着いてお過ごしいただけるよう、マンツーマンでご案内しています。キッズスペースもご用意していますので、お子さまとご一緒にどうぞ。</p>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       CARE  planC の STYLE セクションを転用。
+       スタイル写真が1点も無いため、写真カードではなく文章カードにしている。
+       ============================================================ -->
+  <section id="care" class="sec sec-deep">
+    <div class="sec-inner sec-inner--care">
+      <h2 class="head-block" data-reveal>
+        <span class="head-sub">Our Salon</span>
+        <span class="head-main">Four Notes</span>
+        <span class="head-rule" aria-hidden="true"></span>
+      </h2>
+
+      <div class="care-grid">
+        <div class="care-card" data-reveal>
+          <p class="care-num" aria-hidden="true">I</p>
+          <h3 class="care-title">髪と頭皮にふれる薬剤</h3>
+          <p class="care-text">店頭の黒板には、オーガニックのハーブエキスを配合したカラー剤を使用している旨の案内が掲げられています。やわらかな色の入り方が期待できます。</p>
+          <p class="care-note">※ 現在のメニューにも「オーガニック配合カラー」「ナチュラルハーブカラー」があります。</p>
+        </div>
+
+        <div class="care-card" data-reveal>
+          <p class="care-num" aria-hidden="true">II</p>
+          <h3 class="care-title">木とタイルの空間</h3>
+          <p class="care-text">チークの吊り戸棚と腰壁、焼き物の色のタイル床、白い壁。縦格子の仕切りが奥とのあいだをゆるやかに分けています。</p>
+        </div>
+
+        <div class="care-card" data-reveal>
+          <p class="care-num" aria-hidden="true">III</p>
+          <h3 class="care-title">ゆったりとした造り</h3>
+          <p class="care-text">シャンプー台はひとつ。席のあいだにも余白があり、まわりを気にせず過ごしていただける広さです。</p>
+        </div>
+
+        <div class="care-card" data-reveal>
+          <p class="care-num" aria-hidden="true">IV</p>
+          <h3 class="care-title">関町南の一軒</h3>
+          <p class="care-text">店舗のブログでは、立地を「吉祥寺と武蔵関の中間」と案内しています。住宅地のなかの、レンガの壁が目印です。</p>
+          <p class="care-note">※ 最寄り駅から歩く立地ではありません。吉祥寺駅北口からの西武バスが便利です。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FLOW  4ステップ。実写が無いため写真枠は置かず、文章のみ。
+       ============================================================ -->
+  <section id="flow" class="sec sec-light">
+    <div class="sec-inner sec-inner--flow">
+      <h2 class="head-block" data-reveal>
+        <span class="head-sub">Treatment</span>
+        <span class="head-main">Flow</span>
+        <span class="head-rule" aria-hidden="true"></span>
+      </h2>
+
+      <div class="flow-wrap">
+        <div class="flow-line" aria-hidden="true"></div>
+        <ol class="flow-steps">
+
+          <li class="step-row" data-reveal>
+            <div class="step-rail-num" aria-hidden="true">I</div>
+            <div class="step-mob-num" aria-hidden="true">I</div>
+            <div class="step-body">
+              <h3 class="step-title">カウンセリング</h3>
+              <p class="step-text">今の髪のお悩みと、これからの伸び方をうかがいます。気になっていることは、どうぞ遠慮なくお話しください。</p>
+            </div>
+          </li>
+
+          <li class="step-row" data-reveal>
+            <div class="step-rail-num" aria-hidden="true">II</div>
+            <div class="step-mob-num" aria-hidden="true">II</div>
+            <div class="step-body">
+              <h3 class="step-title">かたちのご提案</h3>
+              <p class="step-text">骨格や毛流れを見ながら、ふだんの装いになじむかたちをご提案します。確かめながら、少しずつ進めます。</p>
+            </div>
+          </li>
+
+          <li class="step-row" data-reveal>
+            <div class="step-rail-num" aria-hidden="true">III</div>
+            <div class="step-mob-num" aria-hidden="true">III</div>
+            <div class="step-body">
+              <h3 class="step-title">施術</h3>
+              <p class="step-text">丁寧に手を動かしながら進めます。髪の状態に合わせて、落ち着いた色味や扱いやすい質感を目指します。</p>
+            </div>
+          </li>
+
+          <li class="step-row" data-reveal>
+            <div class="step-rail-num" aria-hidden="true">IV</div>
+            <div class="step-mob-num" aria-hidden="true">IV</div>
+            <div class="step-body">
+              <h3 class="step-title">仕上げとお手入れのこと</h3>
+              <p class="step-text">最後に全体を整えます。ご自宅での乾かし方など、明日からの扱い方をお伝えします。</p>
+            </div>
+          </li>
+
+        </ol>
+      </div>
+      <p class="sec-note" data-reveal>※ こちらの流れはサンプルです。実際のご案内は店舗にご確認のうえ差し替えます。</p>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       MENU  公開されている料金表が確認できなかったため、
+             金額はすべて No Data。掲載枠だけを残している。
+       ============================================================ -->
+  <section id="menu" class="sec sec-deep">
+    <div class="sec-inner sec-inner--menu">
+      <h2 class="head-block" data-reveal>
+        <span class="head-sub">Price List</span>
+        <span class="head-main">Menu</span>
+        <span class="head-rule" aria-hidden="true"></span>
+      </h2>
+
+      <div class="menu-card" data-reveal>
+        <p class="menu-lead">表示はすべて税込価格です</p>
+
+        <h3 class="menu-group">CUT</h3>
+        <div class="menu-list">
+          <div class="menu-item">
+            <div class="menu-item-head"><h4 class="menu-item-title">カット</h4><p class="menu-item-price">¥4,950</p></div>
+            <p class="menu-item-note">シャンプー・ブロー込み</p>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-head"><h4 class="menu-item-title">前髪カット</h4><p class="menu-item-price">¥1,100</p></div>
+            <p class="menu-item-note">シャンプー・ブロー別</p>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-head"><h4 class="menu-item-title">カット（高校生）</h4><p class="menu-item-price">¥4,400</p></div>
+            <p class="menu-item-note">シャンプー・ブロー込み</p>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-head"><h4 class="menu-item-title">カット（中学生）</h4><p class="menu-item-price">¥3,850</p></div>
+            <p class="menu-item-note">シャンプー・ブロー込み</p>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-head"><h4 class="menu-item-title">カット（小学生）</h4><p class="menu-item-price">¥3,300</p></div>
+            <p class="menu-item-note">シャンプー・ブロー込み</p>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-head"><h4 class="menu-item-title">カット（未就学児）</h4><p class="menu-item-price">¥2,750</p></div>
+            <p class="menu-item-note">シャンプー台の高さが合わないため、シャンプーなしでのお仕上げになります</p>
+          </div>
+        </div>
+
+        <h3 class="menu-group">COLOR</h3>
+        <div class="menu-list">
+          <div class="menu-item">
+            <div class="menu-item-head"><h4 class="menu-item-title">オーガニック配合カラー</h4><p class="menu-item-price">¥7,700〜</p></div>
+            <p class="menu-item-note">根元2〜3cmのリタッチです</p>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-head"><h4 class="menu-item-title">ナチュラルハーブカラー</h4><p class="menu-item-price">¥8,800〜</p></div>
+            <p class="menu-item-note">根元2〜3cmのリタッチです</p>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-head"><h4 class="menu-item-title">アシッドカラー</h4><p class="menu-item-price">¥7,700〜</p></div>
+            <p class="menu-item-note">根元2〜3cmのリタッチです</p>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-head"><h4 class="menu-item-title">ヘナ（オレンジ）</h4><p class="menu-item-price">¥8,800〜</p></div>
+            <p class="menu-item-note">根元2〜3cmのリタッチです。天然のヘナのみを使用しているため、オレンジ色に染まります</p>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-head"><h4 class="menu-item-title">ウィービング（10枚まで）</h4><p class="menu-item-price">要問い合わせ</p></div>
+            <p class="menu-item-note">シャンプー・ブロー別／ネット予約の対象外です</p>
+          </div>
+        </div>
+
+        <h3 class="menu-group">TREATMENT &amp; SPA</h3>
+        <div class="menu-list">
+          <div class="menu-item">
+            <div class="menu-item-head"><h4 class="menu-item-title">インプライム（集中補修）</h4><p class="menu-item-price">¥5,500</p></div>
+            <p class="menu-item-note">ダメージケアのトリートメントです</p>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-head"><h4 class="menu-item-title">ヘッドスパ（クイック）</h4><p class="menu-item-price">¥4,400</p></div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-head"><h4 class="menu-item-title">ヘッドスパ（リフトアップ）</h4><p class="menu-item-price">¥5,500</p></div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-head"><h4 class="menu-item-title">ヘッドスパ（リッチ）</h4><p class="menu-item-price">¥6,600</p></div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-head"><h4 class="menu-item-title">シャンプーブロー</h4><p class="menu-item-price">¥3,300</p></div>
+          </div>
+        </div>
+
+        <h3 class="menu-group">SET MENU</h3>
+        <div class="menu-list">
+          <div class="menu-item">
+            <div class="menu-item-head"><h4 class="menu-item-title">カット＋オーガニック配合カラー</h4><p class="menu-item-price">¥10,450〜</p></div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-head"><h4 class="menu-item-title">カット＋ナチュラルハーブカラー</h4><p class="menu-item-price">¥11,550〜</p></div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-head"><h4 class="menu-item-title">カット＋ヘアマニキュア</h4><p class="menu-item-price">¥10,450〜</p></div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-head"><h4 class="menu-item-title">カット＋オーガニック配合カラー＋インプライムトリートメント</h4><p class="menu-item-price">¥13,750〜</p></div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-head"><h4 class="menu-item-title">カット＋ナチュラルハーブカラー＋トリートメント</h4><p class="menu-item-price">¥14,850〜</p></div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-head"><h4 class="menu-item-title">カット＋パーマ</h4><p class="menu-item-price">¥11,000〜</p></div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-head"><h4 class="menu-item-title">カット＋クリープパーマ</h4><p class="menu-item-price">¥13,000〜</p></div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-head"><h4 class="menu-item-title">カット＋ポイントパーマ</h4><p class="menu-item-price">¥8,800〜</p></div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-head"><h4 class="menu-item-title">カット＋パーマ＋トリートメント</h4><p class="menu-item-price">¥14,300〜</p></div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-head"><h4 class="menu-item-title">カット＋クリープパーマ＋トリートメント</h4><p class="menu-item-price">¥16,500〜</p></div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-head"><h4 class="menu-item-title">カット＋ポイントパーマ＋トリートメント</h4><p class="menu-item-price">¥13,200〜</p></div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-head"><h4 class="menu-item-title">カット＋縮毛矯正</h4><p class="menu-item-price">¥16,500〜</p></div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-head"><h4 class="menu-item-title">カット＋ポイント縮毛矯正（前髪）</h4><p class="menu-item-price">¥9,900〜</p></div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-head"><h4 class="menu-item-title">カット＋縮毛矯正＋トリートメント</h4><p class="menu-item-price">¥19,800〜</p></div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-head"><h4 class="menu-item-title">カット＋縮毛矯正（前髪）＋トリートメント</h4><p class="menu-item-price">¥13,200〜</p></div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-head"><h4 class="menu-item-title">カット＋ヘッドスパ（クイック）</h4><p class="menu-item-price">¥7,150</p></div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-head"><h4 class="menu-item-title">カット＋ヘッドスパ（リフトアップ）</h4><p class="menu-item-price">¥8,250</p></div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-head"><h4 class="menu-item-title">カット＋ヘッドスパ（リッチ）</h4><p class="menu-item-price">¥9,350</p></div>
+          </div>
+        </div>
+
+        <p class="menu-foot">※ ロング料金は ＋¥1,100 です。<br>※ セットメニューはシャンプー・ブロー込みです。<br>※ ヘッドスパは手ぐしでの簡単なお仕上げになります。ほかのメニューと組み合わせの場合は割引がございます。</p>
+      </div>
+
+      <div class="menu-cta" data-reveal>
+        <a href="#reserve" class="btn-reserve-lg">ご予約・お問い合わせはこちら</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       ACCESS  情報（dl）＋地図。
+       実写が2点しかないため access の写真枠は置かず、地図のみ。
+       ============================================================ -->
+  <section id="access" class="sec sec-dark">
+    <div class="access-wrap">
+      <div class="access-info" data-reveal>
+        <h2 class="access-head">
+          <span class="head-sub">Access</span>
+          <span class="head-main">Salon Info</span>
+        </h2>
+        <dl class="access-dl">
+          <div class="access-row">
+            <dt>Store</dt>
+            <dd>hair salon soleil（ソレイユ）</dd>
+          </div>
+          <div class="access-row">
+            <dt>Address</dt>
+            <dd>〒177-0053<br>東京都練馬区関町南2-31-6</dd>
+          </div>
+          <div class="access-row">
+            <dt>Access</dt>
+            <dd>吉祥寺駅 北口から西武バス10分<span class="dd-note">4番・5番乗り場（「都民農園セコニック」「新座栄」行き）にご乗車のうえ「東京三育小学校入口」で下車、進行方向の右斜め後ろへ徒歩1分です。武蔵関・大泉学園・保谷・成増・石神井公園・上石神井・花小金井の各駅からは「吉祥寺駅北口行き」のバスで同じ停留所へお越しいただけます。</span></dd>
+          </div>
+          <div class="access-row">
+            <dt>Open</dt>
+            <dd>10:00 - 19:00<span class="dd-note">カット＋カラーの最終受付は17:00です。</span></dd>
+          </div>
+          <div class="access-row">
+            <dt>Closed</dt>
+            <dd>月火と火水を交互に、週2日<span class="dd-note">月曜が祝日の週は月曜・火曜が休業です。ほかに不定休もございます。</span></dd>
+          </div>
+          <div class="access-row">
+            <dt>Tel</dt>
+            <dd><a href="tel:03-6904-8940">03-6904-8940</a></dd>
+          </div>
+          <div class="access-row">
+            <dt>Seats</dt>
+            <dd>セット面 2席<span class="dd-note">スタイリスト2名（坂田 圭／坂田 順子）の小さなサロンです。</span></dd>
+          </div>
+          <div class="access-row">
+            <dt>Service</dt>
+            <dd>キッズスペースあり／お子さま同伴可／禁煙</dd>
+          </div>
+          <div class="access-row">
+            <dt>Payment</dt>
+            <dd>Visa／Mastercard／JCB／American Express／Diners Club<span class="dd-note">PayPay、楽天ペイもご利用いただけます。</span></dd>
+          </div>
+          <div class="access-row">
+            <dt>Parking</dt>
+            <dd>なし</dd>
+          </div>
+        </dl>
+      </div>
+      <div class="access-media" data-reveal>
+        <div class="access-map">
+          <iframe src="https://maps.google.com/maps?q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E7%B7%B4%E9%A6%AC%E5%8C%BA%E9%96%A2%E7%94%BA%E5%8D%972-31-6&output=embed"
+                  loading="lazy" title="hair salon soleil の地図"></iframe>
+        </div>
+        <p class="access-note">建物名は資料によって表記が分かれていたため、番地までの表示にしています。</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       RESERVE  外部フォームは持たないため、電話でのご案内のみ
+       ============================================================ -->
+  <section id="reserve" class="sec sec-reserve">
+    <div class="reserve-card" data-reveal>
+      <span class="edge edge-t" aria-hidden="true"></span>
+      <span class="edge edge-b" aria-hidden="true"></span>
+      <span class="edge edge-l" aria-hidden="true"></span>
+      <span class="edge edge-r" aria-hidden="true"></span>
+      <h2 class="reserve-title">Reservation</h2>
+      <p class="reserve-text">ご予約・お問い合わせはお電話で承ります。<br>定休日が週によって変わり、ほかに不定休もありますので、<br>お越しの前にご確認いただけると安心です。</p>
+      <a href="tel:03-6904-8940" class="btn-reserve-lg">03-6904-8940</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>&copy; 2026 hair salon soleil. All Rights Reserved.</p>
+</footer>
+<!-- ============ 制作クレジット帯（スズメデザイン） ============ -->
+<aside class="studio-credit">
+  <div class="studio-credit__inner">
+    <p class="studio-credit__text">
+      <span class="studio-credit__lead">このサイトのデザインを制作しました</span>
+      <span class="studio-credit__name">サロン専門ホームページ制作　スズメデザイン</span>
+    </p>
+    <a class="studio-credit__btn" href="https://suzumedesign.com/" target="_blank" rel="noopener noreferrer">スズメデザインについて</a>
+  </div>
+</aside>
+
+
+<script src="main.js"></script>
+</body>
+</html>
